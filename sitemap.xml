@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://prueba-vou6.vercel.app/index.html</loc><priority>1.0</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/catalogo.html</loc><priority>0.7</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html</loc><priority>0.7</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/quiz.html</loc><priority>0.7</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/favoritos.html</loc><priority>0.7</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/contacto.html</loc><priority>0.7</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/checkout.html</loc><priority>0.7</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Afnan</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Armani</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Azzaro</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Bad%20Boy</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Burberry</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Calvin%20Klein</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Carolina%20Herrera</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Dior</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Dolce%20%26%20Gabbana</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Giorgio%20Armani</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Givenchy</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Guess</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Jean%20Paul%20Gaultier</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Jo%20Milano</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Lattafa</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Mancera</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Moschino</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Nautica</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Odyssey</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Paco%20Rabanne</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Prada</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Valentino</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Versace</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Viktor%20%26%20Rolf</loc><priority>0.6</priority></url>
+  <url><loc>https://prueba-vou6.vercel.app/marca.html?m=Yves%20Saint%20Laurent</loc><priority>0.6</priority></url>
+</urlset>

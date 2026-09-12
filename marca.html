@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Marcas | VECCHIA PERFUMES</title>
+<meta name="description" content="Fragancias originales por marca: Lattafa, Azzaro, Valentino, Versace, Paco Rabanne y más. Envíos a toda Venezuela desde Barinas.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://prueba-vou6.vercel.app/marca.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VECCHIA PERFUMES">
+<meta property="og:locale" content="es_VE">
+<meta property="og:title" content="Marcas | VECCHIA PERFUMES">
+<meta property="og:description" content="Fragancias originales por marca: Lattafa, Azzaro, Valentino, Versace, Paco Rabanne y más. Envíos a toda Venezuela desde Barinas.">
+<meta property="og:url" content="https://prueba-vou6.vercel.app/marca.html">
+<meta property="og:image" content="https://images.unsplash.com/photo-1541643600914-78b084683601?w=1800&q=80">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Marcas | VECCHIA PERFUMES">
+<meta name="twitter:description" content="Fragancias originales por marca: Lattafa, Azzaro, Valentino, Versace, Paco Rabanne y más. Envíos a toda Venezuela desde Barinas.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1541643600914-78b084683601?w=1800&q=80">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23000'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23fff' text-anchor='middle'%3EV%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vecchia.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Saltar al contenido</a>
+<noscript><div style="padding:1rem;background:#000;color:#fff;text-align:center;font-size:.85rem">
+Esta tienda necesita JavaScript para el catálogo y el pedido.
+<a href="https://wa.me/582735527411" style="color:#fff;text-decoration:underline">Escríbenos por WhatsApp</a>.
+</div></noscript>
+
+<main id="main" class="page">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Ruta" id="mk-crumbs">
+      <a href="index.html">Inicio</a><span>/</span><a href="catalogo.html">Catálogo</a>
+    </nav>
+    <header class="page-head">
+      <p class="eyebrow">Marca</p>
+      <h1 class="section-title" id="mk-title">Marcas</h1>
+      <p class="lede" id="mk-lede"></p>
+      <p class="count" id="mk-count" aria-live="polite"></p>
+    </header>
+
+    <section class="section--tight" id="mk-all" hidden>
+      <div class="chips" style="flex-wrap:wrap" id="mk-list"></div>
+    </section>
+
+    <section class="section--tight" aria-label="Fragancias">
+      <div class="grid" id="mk-grid"></div>
+    </section>
+  </div>
+</main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>
+document.addEventListener('vecchia:ready', function () {
+  var V = window.Vecchia, $ = V.$, esc = V.esc;
+  var want = new URLSearchParams(location.search).get('m') || '';
+  var hit = V.BRANDS.filter(function (b) {
+    return V.norm(b.name) === V.norm(want);
+  })[0];
+
+  /* Sin marca en la URL: índice de todas las marcas */
+  if (!hit) {
+    $('#mk-all').hidden = false;
+    $('#mk-title').textContent = 'Todas las marcas';
+    $('#mk-lede').textContent = 'Las ' + V.BRANDS.length + ' casas presentes en ' +
+      'nuestro catálogo. Elige una para ver sus fragancias.';
+    $('#mk-list').innerHTML = V.BRANDS.map(function (b) {
+      return '<a class="chip" href="marca.html?m=' + encodeURIComponent(b.name) + '">' +
+        esc(b.name) + ' <span style="color:var(--ink-40);margin-left:.3rem">' +
+        b.n + '</span></a>';
+    }).join('');
+    V.renderGrid($('#mk-grid'), V.products.slice().sort(V.SORTS.relevancia).slice(0, 8));
+    $('#mk-count').textContent = '';
+    return;
+  }
+
+  var brand = hit.name;
+  var list = V.products.filter(function (p) { return p.brand === brand; })
+                       .sort(V.SORTS.relevancia);
+  var enStock = list.filter(function (p) { return !p.soldOut; }).length;
+
+  /* SEO propio de la marca */
+  document.title = brand + ' | Perfumes originales en VECCHIA';
+  var d = document.querySelector('meta[name="description"]');
+  if (d) d.setAttribute('content', list.length + ' fragancias de ' + brand +
+    ' en VECCHIA Perfumes. Originales, con envío a toda Venezuela desde Barinas.');
+  var ogt = document.querySelector('meta[property="og:title"]');
+  if (ogt) ogt.setAttribute('content', brand + ' | VECCHIA PERFUMES');
+  var can = document.querySelector('link[rel="canonical"]');
+  if (can) can.setAttribute('href', can.getAttribute('href').split('?')[0] +
+    '?m=' + encodeURIComponent(brand));
+  if (list[0] && list[0].image) {
+    var ogi = document.querySelector('meta[property="og:image"]');
+    if (ogi) ogi.setAttribute('content', list[0].image);
+  }
+
+  var ld = document.createElement('script');
+  ld.type = 'application/ld+json';
+  ld.textContent = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Inicio', item: location.origin + '/index.html' },
+      { '@type': 'ListItem', position: 2, name: 'Catálogo', item: location.origin + '/catalogo.html' },
+      { '@type': 'ListItem', position: 3, name: brand }
+    ]
+  });
+  document.head.appendChild(ld);
+
+  $('#mk-title').textContent = brand;
+  $('#mk-lede').textContent = 'Todas las fragancias de ' + brand +
+    ' disponibles en VECCHIA.';
+  $('#mk-count').textContent = list.length + (list.length === 1 ? ' fragancia' : ' fragancias') +
+    (enStock ? ' \u00b7 ' + enStock + ' en stock' : '');
+  $('#mk-crumbs').insertAdjacentHTML('beforeend', '<span>/</span><span>' + esc(brand) + '</span>');
+  V.renderGrid($('#mk-grid'), list);
+});
+</script>
+</body>
+</html>
