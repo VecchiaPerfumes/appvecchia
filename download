@@ -1,16 +1,3 @@
-# Sistema
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# Editores
-.vscode/
-.idea/
-*.swp
-
-# Vercel
-.vercel/
-
-# No hay build: no debería aparecer nada de esto
-node_modules/
-dist/
+*.zip

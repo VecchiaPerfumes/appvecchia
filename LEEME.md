@@ -2,37 +2,47 @@
 
 ## Cómo subirlo
 
-Sube **la carpeta completa tal cual**, respetando la subcarpeta `assets/`.
-Si subes los archivos sueltos, el CSS y el JS no cargarán.
+Los archivos van **todos en la raíz del repositorio**, sin carpetas. Es a
+propósito: el navegador del móvil no puede subir carpetas a GitHub, y cuando
+los archivos de `assets/` se subían sueltos la web salía en blanco.
 
 ```
-/                        ← raíz del repositorio
-├── index.html
-├── catalogo.html
-├── producto.html
-├── decants.html
-├── quiz.html
+/                     ← raíz del repositorio
+├── index.html        ← inicio
+├── catalogo.html     ← catálogo con filtros y buscador
+├── producto.html     ← ficha (producto.html?id=…)
+├── marca.html        ← página de cada marca (marca.html?m=Lattafa)
 ├── favoritos.html
 ├── checkout.html
 ├── contacto.html
+├── quiz.html
+├── vecchia.css       ← todo el diseño
+├── app.js            ← toda la lógica (carrito, buscador, tasa…)
+├── data.js           ← EL CATÁLOGO: los 116 productos
 ├── robots.txt
 ├── sitemap.xml
+├── vercel.json
 ├── mens-collection.html      ┐
-├── woman-collection.html     │ redirecciones de las URLs
-├── unisex-collection.html    │ antiguas (no borrar: mantienen
-├── gift-sets.html            │ vivos los enlaces ya compartidos)
+├── woman-collection.html     │ redirecciones de las URLs antiguas
+├── unisex-collection.html    │ (no las borres: mantienen vivos
+├── gift-sets.html            │ los enlaces ya compartidos)
+├── catalog.html              │
 ├── vecchia-quiz.html         ┘
-└── assets/
-    ├── vecchia.css
-    ├── data.js
-    └── app.js
+├── README.md
+└── LEEME.md
 ```
 
-En GitHub: *Add file → Upload files* y **arrastra la carpeta `assets` entera**,
-no sus archivos por separado.
+En GitHub: *Add file → Upload files* y selecciona **todos** los archivos.
+No hace falta arrastrar ninguna carpeta.
 
-Borra del repositorio los archivos antiguos que ya no se usan:
-`site-variables.css`, `site-components.css`, `site-footer.css`, `site-utilities.js`.
+**Antes de subir, borra del repositorio lo viejo** o quedarán dos versiones
+mezcladas y verás la antigua:
+
+- la carpeta `assets/` completa (CSS y JS viejos)
+- `decants.html`
+- `vecchia-perfumes.zip` (un zip subido sin descomprimir no sirve de nada)
+- `site-variables.css`, `site-components.css`, `site-footer.css`,
+  `site-utilities.js`
 
 ## Cómo editar el catálogo
 
@@ -217,8 +227,19 @@ Las 25 están en el `sitemap.xml`, así que Google las descubre solas.
 
 - Los 116 productos, precios, fotos y descripciones salen de tus páginas
   originales. No se inventó ninguno.
-- 31 productos no declaran marca en su nombre; en esos la línea de marca
-  simplemente no se muestra (mejor que mostrar una marca equivocada).
+- **Los 116 productos tienen marca.** Los 31 que antes no la mostraban se
+  investigaron uno por uno. La foto de la mayoría viene de fimgs.net y el
+  número de su URL es el identificador de Fragrantica, así que la foto y la
+  ficha oficial se corresponden con certeza. La tabla está en
+  `gendata.py` → `BRAND_FIX`, con el número comprobado al lado de cada uno.
+- Tres marcas estaban mal atribuidas porque el nombre del producto empieza
+  por el nombre de la **línea**, no de la casa. Corregidas:
+  - `Odyssey` → **Armaf** (8 productos: Mandarin Sky, Aoud, Aqua, White,
+    Spectra, Mandarin Elixir, Aristo, Candee)
+  - `Bad Boy` → **Carolina Herrera** (2: Le Parfum, Cobalt Électrique)
+  - `Armani` → **Emporio Armani** (la línea Stronger With You). Acqua di Gio
+    queda como **Giorgio Armani**, que es la casa correcta para esa línea.
+  Si prefieres verlas como antes, cambia `BRAND_RENAME` en `gendata.py`.
 - **Versace Eros** ($105) solo existía en la home antigua y no tenía categoría
   asignada. Está en el catálogo y en el buscador, pero no aparece al filtrar por
   Hombre / Mujer / Unisex. Para colocarlo, añade el género en `data.js`:

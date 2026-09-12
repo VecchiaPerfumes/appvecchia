@@ -4,7 +4,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "armani-stronger-with-you-intensely-edp-100ml",
   "name": "Armani Stronger With You Intensely EDP 100ml",
-  "brand": "Armani",
+  "brand": "Emporio Armani",
   "price": 160.0,
   "image": "https://perfumerias.com/static/imagenes/productos/product_info/3614272225718.webp",
   "imageDark": "",
@@ -36,7 +36,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "stronger-with-you-absolutely-edp-100ml",
   "name": "Stronger With You Absolutely EDP 100ml",
-  "brand": "",
+  "brand": "Emporio Armani",
   "price": 170.0,
   "image": "https://perfumerias.com/static/imagenes/productos/product_info/3614273336383.webp",
   "imageDark": "",
@@ -62,7 +62,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "stronger-with-you-parfum-100ml",
   "name": "Stronger With You Parfum 100ml",
-  "brand": "",
+  "brand": "Emporio Armani",
   "price": 195.0,
   "image": "https://perfumerias.com/static/imagenes/productos/product_info/3614274219548.webp",
   "imageDark": "",
@@ -212,7 +212,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-mandarin-sky-edp",
   "name": "Odyssey Mandarin Sky EDP",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 55.0,
   "image": "https://perfumania.com/cdn/shop/files/mandarin_sky.png?format=pjpg&v=1747402982&width=1100",
   "imageDark": "",
@@ -239,7 +239,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-aoud-edp",
   "name": "Odyssey Aoud EDP",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 60.0,
   "image": "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/a/r/armaf-mens-odyssey-aoud-edp-2-oz-fragrances-6294015189629.jpg?width=800&height=800",
   "imageDark": "",
@@ -264,7 +264,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-aqua",
   "name": "Odyssey Aqua",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 60.0,
   "image": "https://fragrantvilla.com/cdn/shop/files/dbc8bb598daf422a8d6e12f178b44f72_tplv-omjb5zjo8w-resize-jpeg_800_800_529f722b-f4c1-410c-bd6c-5f1ac1286780.jpg?v=1749076192&width=1946",
   "imageDark": "",
@@ -290,7 +290,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-white",
   "name": "Odyssey White",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 65.0,
   "image": "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/a/r/armaf-mens-odyssey-homme-white-edition-edp-spray-20-oz-fragrances-6294015189568.jpg?width=800&height=800",
   "imageDark": "",
@@ -316,7 +316,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-spectra",
   "name": "Odyssey Spectra",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 65.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98692.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.98692.2x.avif",
@@ -340,7 +340,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-mandarin-elixir",
   "name": "Odyssey Mandarin Elixir",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 75.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106709.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.106709.2x.avif",
@@ -366,7 +366,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-aristo",
   "name": "Odyssey Aristo",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 75.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106710.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.106710.2x.avif",
@@ -416,7 +416,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "game-of-spades-full-house",
   "name": "Game of Spades Full House",
-  "brand": "",
+  "brand": "Jo Milano",
   "price": 115.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.105095.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.105095.2x.avif",
@@ -592,7 +592,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "phantom-elixir",
   "name": "Phantom Elixir",
-  "brand": "",
+  "brand": "Paco Rabanne",
   "price": 160.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.101370.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.101370.2x.avif",
@@ -826,7 +826,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "212-vip-black-edp-100ml",
   "name": "212 VIP Black EDP 100ml",
-  "brand": "",
+  "brand": "Carolina Herrera",
   "price": 120.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.46093.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.46093.2x.avif",
@@ -852,7 +852,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "bad-boy-le-parfum-100ml-edp",
   "name": "Bad Boy Le Parfum 100ml EDP",
-  "brand": "Bad Boy",
+  "brand": "Carolina Herrera",
   "price": 135.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.65718.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.65718.2x.avif",
@@ -876,7 +876,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "bad-boy-cobalt-electrique-100ml-edp",
   "name": "Bad Boy Cobalt Électrique 100ml EDP",
-  "brand": "Bad Boy",
+  "brand": "Carolina Herrera",
   "price": 145.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.71888.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.71888.2x.avif",
@@ -1028,7 +1028,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "asad-zanzibar-100ml-edp",
   "name": "Asad Zanzibar 100ml EDP",
-  "brand": "",
+  "brand": "Lattafa",
   "price": 60.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.90713.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.90713.2x.avif",
@@ -1080,7 +1080,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "acqua-di-gio-parfum-100ml",
   "name": "Acqua Di Gio Parfum 100ml",
-  "brand": "",
+  "brand": "Giorgio Armani",
   "price": 165.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.81508.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.81508.2x.avif",
@@ -1206,7 +1206,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "stallion-53",
   "name": "Stallion 53",
-  "brand": "",
+  "brand": "Emper",
   "price": 55.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.106193.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.106193.2x.avif",
@@ -1231,7 +1231,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "glacier-le-noir-100ml-edp",
   "name": "Glacier Le Noir 100ml EDP",
-  "brand": "",
+  "brand": "Maison Alhambra",
   "price": 55.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.93646.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.93646.2x.avif",
@@ -1257,7 +1257,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "jean-lowe-vibe-100ml-edp",
   "name": "Jean Lowe Vibe 100ml EDP",
-  "brand": "",
+  "brand": "Maison Alhambra",
   "price": 60.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.103352.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.103352.2x.avif",
@@ -1283,7 +1283,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "sceptre-malachite-100ml-edp",
   "name": "Sceptre Malachite 100ml EDP",
-  "brand": "",
+  "brand": "Maison Alhambra",
   "price": 60.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.94163.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.94163.2x.avif",
@@ -1307,7 +1307,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "art-of-nature-i-100ml-edp",
   "name": "Art of Nature I 100ml EDP",
-  "brand": "",
+  "brand": "Lattafa",
   "price": 65.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.98241.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.98241.2x.avif",
@@ -1359,7 +1359,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "halloween-man-x-edt-125ml",
   "name": "Halloween Man X EDT 125ml",
-  "brand": "",
+  "brand": "Jesus Del Pozo",
   "price": 70.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.53215.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.53215.2x.avif",
@@ -1385,7 +1385,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "legend-spirit-de-mont-blanc-edt-100ml",
   "name": "Legend Spirit de Mont Blanc EDT 100ml",
-  "brand": "",
+  "brand": "Montblanc",
   "price": 80.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.33443.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.33443.2x.avif",
@@ -1437,7 +1437,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "bharara-king-100ml-edp",
   "name": "Bharara King 100ml EDP",
-  "brand": "",
+  "brand": "Bharara",
   "price": 90.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.74184.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.74184.2x.avif",
@@ -1643,7 +1643,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "supremacy-in-heaven-edp-100ml",
   "name": "Supremacy In Heaven EDP 100ml",
-  "brand": "",
+  "brand": "Afnan",
   "price": 60.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.70703.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.70703.2x.avif",
@@ -2107,7 +2107,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "flowerbomb",
   "name": "FlowerBomb",
-  "brand": "",
+  "brand": "Viktor & Rolf",
   "price": 130.0,
   "image": "https://www.sephora.com/productimages/sku/s1377159-main-zoom.jpg?imwidth=1224",
   "imageDark": "",
@@ -2133,7 +2133,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "good-fortune",
   "name": "Good Fortune",
-  "brand": "",
+  "brand": "Viktor & Rolf",
   "price": 140.0,
   "image": "https://www.sephora.com/productimages/sku/s2553311-main-zoom.jpg?imwidth=1224",
   "imageDark": "",
@@ -2159,7 +2159,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "libre",
   "name": "Libre",
-  "brand": "",
+  "brand": "Yves Saint Laurent",
   "price": 135.0,
   "image": "https://www.scentsangel.com/cdn/shop/files/Untitleddesign_35_e5a9e690-f190-47fc-a608-d7c845614fe5.jpg?v=1779747818&width=1946",
   "imageDark": "",
@@ -2185,7 +2185,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "libre-intense",
   "name": "Libre Intense",
-  "brand": "",
+  "brand": "Yves Saint Laurent",
   "price": 165.0,
   "image": "https://www.scentsangel.com/cdn/shop/files/SENTSANGEL_69_5bacef5f-d86f-4ced-9be7-65f8123dde45.jpg?v=1777390172&width=1946",
   "imageDark": "",
@@ -2289,7 +2289,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "odyssey-candee",
   "name": "Odyssey Candee",
-  "brand": "Odyssey",
+  "brand": "Armaf",
   "price": 60.0,
   "image": "https://target.scene7.com/is/image/Target/GUEST_167cdf05-0be7-4062-b01a-b2fa41bb1d7d?wid=750&qlt=80",
   "imageDark": "",
@@ -2373,7 +2373,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "shaheen-gold",
   "name": "Shaheen Gold",
-  "brand": "",
+  "brand": "Lattafa",
   "price": 60.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.82814.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.82814.2x.avif",
@@ -2425,7 +2425,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "la-rouge-baroque",
   "name": "La Rouge Baroque",
-  "brand": "",
+  "brand": "Maison Alhambra",
   "price": 50.0,
   "image": "https://oudlash.com/cdn/shop/files/GUEST_ca28d66d-45a9-4828-8cad-ad7e539516c9.avif?v=1777575905&width=713",
   "imageDark": "",
@@ -2451,7 +2451,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "black-opium-neon",
   "name": "Black Opium Neon",
-  "brand": "",
+  "brand": "Yves Saint Laurent",
   "price": 150.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.58525.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.58525.2x.avif",
@@ -2477,7 +2477,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "club-de-nuit-woman",
   "name": "Club de Nuit Woman",
-  "brand": "",
+  "brand": "Armaf",
   "price": 60.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.27655.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.27655.2x.avif",
@@ -2530,7 +2530,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "perfect-elixir",
   "name": "Perfect Elixir",
-  "brand": "",
+  "brand": "Marc Jacobs",
   "price": 180.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.96014.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.96014.2x.avif",
@@ -2556,7 +2556,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "good-girl",
   "name": "Good Girl",
-  "brand": "",
+  "brand": "Carolina Herrera",
   "price": 190.0,
   "image": "https://fimgs.net/mdimg/perfume-thumbs/375x500.39681.2x.avif",
   "imageDark": "https://fimgs.net/mdimg/perfume-thumbs/dark-375x500.39681.2x.avif",
@@ -2608,7 +2608,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "badee-al-oud-honor-glory",
   "name": "Badee Al Oud Honor & Glory",
-  "brand": "",
+  "brand": "Lattafa",
   "price": 60.0,
   "image": "https://fandi-perfume.com/cdn/shop/files/lattafa-bade-e-al-oud-honor-glory-unisex-perfume-cologne-for-men-women-eau-de-parfum-3-4-oz-gift-set-3-4-oz-edp-1217979978.jpg?v=1769265070",
   "imageDark": "",
@@ -2634,7 +2634,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "club-de-nuit-untold",
   "name": "Club De Nuit Untold",
-  "brand": "",
+  "brand": "Armaf",
   "price": 55.0,
   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_TMjkL9i4inTNolLKAUxN3bgeZFOQCC07b6TG2TQuCygXK7ehXBJEnU&s=10",
   "imageDark": "",
@@ -2842,7 +2842,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "black-opium-set",
   "name": "Black Opium Set",
-  "brand": "",
+  "brand": "Yves Saint Laurent",
   "price": 195.0,
   "image": "https://slimages.macysassets.com/is/image/MCY/products/9/optimized/27263229_fpx.tif?fmt=jpeg",
   "imageDark": "",
@@ -2868,7 +2868,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "212-vip-black-set",
   "name": "212 VIP Black Set",
-  "brand": "",
+  "brand": "Carolina Herrera",
   "price": 95.0,
   "image": "https://dlginternationaltrading.com/cdn/shop/files/images_ec2f4f09-a55a-4854-8b45-43cfc3b9f0e4.jpg?v=1753974476",
   "imageDark": "",
@@ -2894,7 +2894,7 @@ window.VECCHIA_PRODUCTS = [
  {
   "id": "game-of-spades-royale-set",
   "name": "Game of Spades Royale Set",
-  "brand": "",
+  "brand": "Jo Milano",
   "price": 130.0,
   "image": "https://beautyhouse.com/cdn/shop/files/013oowfpwj.png?v=1731509772&width=2048",
   "imageDark": "",

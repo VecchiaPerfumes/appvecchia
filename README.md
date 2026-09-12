@@ -10,21 +10,24 @@ Sin frameworks, sin dependencias y sin paso de compilación: se sube tal cual.
 ## Subir a GitHub
 
 1. En tu repositorio: **Add file → Upload files**.
-2. Arrastra **todo el contenido de esta carpeta**, incluida la carpeta `assets`
-   entera (arrastra la carpeta, no los tres archivos sueltos).
+2. Selecciona **todos** los archivos. Van en la raíz, sin carpetas.
 3. Commit.
 
-> ⚠️ Si subes `vecchia.css`, `app.js` y `data.js` sueltos en la raíz en vez de
-> dentro de `assets/`, la web sale en blanco. La carpeta tiene que conservarse.
+> No hay carpetas a propósito: el navegador del móvil no puede subir carpetas,
+> y así no vuelve a salir la página en blanco.
 
-### Borra del repositorio estos archivos viejos
+### Borra del repositorio esto antes de subir
 
-Ya no se usan y solo estorban:
+Si no, quedan dos versiones mezcladas y se ve la antigua:
 
 ```
+assets/                  (la carpeta entera)
+decants.html
+vecchia-perfumes.zip
 site-components.css
 site-footer.css
 site-variables.css
+site-utilities.js
 ```
 
 ### Estructura correcta
@@ -38,6 +41,7 @@ site-variables.css
 ├── checkout.html
 ├── contacto.html
 ├── quiz.html               ¿Qué perfume soy?
+├── marca.html              página de cada marca (?m=Lattafa)
 ├── robots.txt
 ├── sitemap.xml
 ├── README.md
@@ -48,10 +52,10 @@ site-variables.css
 ├── gift-sets.html          │  los enlaces ya compartidos)
 ├── vecchia-quiz.html       │
 ├── catalog.html            ┘
-└── assets/
-    ├── vecchia.css         sistema de diseño
-    ├── app.js              carrito, favoritos, buscador, tasa
-    └── data.js             catálogo completo
+├── vecchia.css             sistema de diseño
+├── app.js                  carrito, favoritos, buscador, tasa
+├── data.js                 catálogo completo
+└── vercel.json
 ```
 
 ## Publicar en Vercel
@@ -62,7 +66,7 @@ Es un sitio estático: no hay que configurar nada.
 - Build command: *(vacío)*
 - Output directory: *(vacío o `.`)*
 
-El `vercel.json` incluido solo añade caché para `assets/`.
+El `vercel.json` incluido solo añade caché para el CSS y el JS.
 
 ---
 
@@ -75,7 +79,7 @@ páginas a la vez: inicio, catálogo, buscador, ficha, favoritos y carrito.
 {
   "id": "asad-lattafa-100ml-edp",   // no lo cambies: es el enlace de la ficha
   "name": "Asad Lattafa 100ml EDP",
-  "brand": "Lattafa",               // "" para no mostrar marca
+  "brand": "Lattafa",               // las 116 tienen marca verificada
   "price": 50,                      // número, sin símbolo
   "image": "https://…",
   "alt": "Asad Lattafa 100ml EDP",
@@ -89,13 +93,15 @@ páginas a la vez: inicio, catálogo, buscador, ficha, favoritos y carrito.
 }
 ```
 
-## Tasa USD → Bs
+## Tasa euro → Bs
 
-Si al publicar no ves los precios en bolívares, abre `app.js`, busca
+Los precios se muestran en dólares y el equivalente en bolívares se calcula
+con la **tasa euro del BCV**. Si al publicar no ves los precios en bolívares,
+abre `app.js`, busca
 `manual:` dentro del bloque `Rate` y escribe el número:
 
 ```js
-manual: 234.56,
+manual: 968.07,   // bolívares por euro
 ```
 
 Eso tiene prioridad sobre cualquier API y funciona siempre.
